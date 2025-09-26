@@ -13,19 +13,6 @@ Example in this project:
 
 We can inject either EmailService or SmsService without changing the Notification class.
 
-**🛠 Project Structure**
-DIExample/
-│
-├── Core/
-│   └── Notification.cs
-│
-├── Services/
-│   ├── IMessageService.cs
-│   ├── EmailService.cs
-│   └── SmsService.cs
-│
-└── Program.cs
-
 **▶️ How to Run**
 1. Clone the repository
   git clone https://github.com/your-username/DIExample.git
