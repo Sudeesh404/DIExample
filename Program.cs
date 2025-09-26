@@ -7,19 +7,20 @@ class Program
 {
     static void Main(string[] args)
     {
-    // Setup DI container
-    var services = new ServiceCollection();
+        // Setup DI container
+        var services = new ServiceCollection();
 
-    // Register implementations with transient lifetime as requested
-    services.AddTransient<IMessageService, SmsService>();
+        // Register implementations with transient lifetime as requested
+        services.AddTransient<IMessageService, SmsService>();
 
-    // Register Notification so it can be resolved and its constructor dependency injected
-    services.AddTransient<Notification>();
+        // Register Notification so it can be resolved and its constructor dependency injected
+        services.AddTransient<Notification>();
 
-    using var provider = services.BuildServiceProvider();
+        using var provider = services.BuildServiceProvider();
 
-    // Resolve Notification and use it
-    var notify = provider.GetRequiredService<Notification>();
-    notify.Alert("Hello Dependency Injection with AddTransient!");
+        // Resolve Notification and use it
+        var notify = provider.GetRequiredService<Notification>();
+        notify.Alert("hello dependency injection with transient lifetime!");
+        
     }
 }
