@@ -1,0 +1,14 @@
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\DIExample.exe
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\DIExample.deps.json
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\DIExample.runtimeconfig.json
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\DIExample.dll
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\DIExample.pdb
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.AssemblyInfoInputs.cache
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.AssemblyInfo.cs
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.csproj.CoreCompileInputs.cache
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.dll
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\refint\DIExample.dll
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.pdb
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.genruntimeconfig.cache
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\ref\DIExample.dll
