@@ -1,14 +1,25 @@
 ﻿using DIExample.Core;
 using DIExample.Services;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Choose which service to inject
-        IMessageService service = new SmsService(); // or new SmsService()
-        Notification notify = new Notification(service);
+    // Setup DI container
+    var services = new ServiceCollection();
 
-        notify.Alert("Hello Dependency Injection!");
+    // Register implementations with transient lifetime as requested
+    services.AddTransient<IMessageService, SmsService>();
+
+    // Register Notification so it can be resolved and its constructor dependency injected
+    services.AddTransient<Notification>();
+
+    using var provider = services.BuildServiceProvider();
+
+    // Resolve Notification and use it
+    var notify = provider.GetRequiredService<Notification>();
+    notify.Alert("Hello Dependency Injection with AddTransient!");
     }
 }

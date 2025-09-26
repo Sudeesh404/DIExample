@@ -12,3 +12,8 @@ C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\refint\DIExample.dll
 C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.pdb
 C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.genruntimeconfig.cache
 C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\ref\DIExample.dll
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sushi\Desktop\DIExample\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.csproj.AssemblyReference.cache
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.sourcelink.json
+C:\Users\Sushi\Desktop\DIExample\obj\Debug\net9.0\DIExample.csproj.Up2Date

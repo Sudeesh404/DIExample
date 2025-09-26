@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DFpmvQvNG1Y=",
+  "dgSpecHash": "ki09PjFOBu0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Sushi\\Desktop\\DIExample\\DIExample.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sushi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\Sushi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
+  ],
   "logs": []
 }
